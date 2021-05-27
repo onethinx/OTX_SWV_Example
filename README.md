@@ -20,8 +20,9 @@ _SWV Example: sending debug info to VS Code output window_
     - PSoC Creator 4.4 (when reconfiguration of the UART / IO is required).
 
 2. Hardware connection setup.
-   - P9_0 should be connected with pin 6 of the 10 pin ARM SWD connector of the J-Link debugger (J-Link Adapter CortexM)
-   - ![ARM_10_pin](../assets/ARM_10pin.png?raw=true)<br/>
+   - P9_0 should be connected with pin 6 (SWO / TDO) of the 10 pin ARM SWD connector of the J-Link debugger (J-Link Adapter CortexM)<br/><br/>
+   - ![ARM_10_pin](../assets/ARM_10pin.png?raw=true)<br/> _ARM SWD 10 pin connector_<br/><br/>
+   - ![ARM_10_pin](../assets/OTX_DevKit.png?raw=true)<br/> _Onethinx Dev Kit_<br/><br/>
    
 3. Building the example
    - Clean Reconfigure All Projects<br/>
@@ -38,5 +39,5 @@ _SWV Example: sending debug info to VS Code output window_
    - Go back to VS Code and do a \[Clean Reconfigure\] and \[Build & Launch\] (see steps above).
   
 ![OTX_SWV_Example](../assets/SWV_UART.png?raw=true)<br/>
-_UART Example in PSoC Creator: double click and change settings_
+_6 MBaud UART Example in PSoC Creator: double click and change settings_
 
